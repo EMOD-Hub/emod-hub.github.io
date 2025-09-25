@@ -1,0 +1,45 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "emod-hub.github.io"
+version = "0.1.0"
+description = "Documentation home for EMOD-Hub"
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [
+    {name = "Sharon Chen", email = "sharon.chen@gatesfoundation.org"},
+    {name = "Zhaowei Du", email = "zhaowei.du@gatesfoundation.org"},
+    {name = "Clark Kirkman IV", email = "clark.kirkmand@gatesfoundation.org"},
+    {name = "Daniel Bridenbecker", email = "daniel.bridenbecker@gatesfoundation.org"},
+    {name = "Svetlana Titova", email = "svetlana.titova@gatesfoundation.org"},
+    {name = "Ye Chen", email = "ye.chen@gatesfoundation.org"},
+]
+keywords = ['modeling', 'IDM']
+dependencies = [
+]
+license = "MIT"
+classifiers = [
+    "Intended Audience :: Science/Research",
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+    "Framework:: IDM-Tools :: models",
+]
+
+[project.optional-dependencies]
+docs = [
+    "mkdocs-material",
+    "mkdocs-include-markdown-plugin",
+    "mkdocstrings-python",
+    "mkdocs-autoapi",
+    "mkdocs-glightbox",
+]
+test = [
+]
+packaging = [
+]
+
+[project.urls]
+Repository="https://github.com/EMOD-Hub/emod-hub.github.io"
+Issues="https://github.com/EMOD-Hub/emod-hub.github.io/issues"
