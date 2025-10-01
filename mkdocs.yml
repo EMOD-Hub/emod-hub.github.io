@@ -52,6 +52,8 @@ markdown_extensions:
   - pymdownx.highlight:
       linenums: true
       default_lang: 'python'
+  - pymdownx.arithmatex:
+      generic: true
 
 copyright: Copyright &copy; 2025 Gates Foundation. All rights reserved.
 
