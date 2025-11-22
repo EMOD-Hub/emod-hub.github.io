@@ -58,7 +58,6 @@ markdown_extensions:
 copyright: Copyright &copy; 2025 Gates Foundation. All rights reserved.
 
 extra_javascript:
-  - customization/javascripts/mathjax.js
   - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
 
 extra_css:
@@ -73,7 +72,7 @@ extra:
       href: "https://www.gatesfoundation.org/Terms-of-Use"
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/EMOD-Hub/emod-api
+      link: https://github.com/EMOD-Hub/emod-hub.github.io
     - icon: fontawesome/regular/envelope
       link: mailto:idm@gatesfoundation.org
     - icon: octicons/globe-24
