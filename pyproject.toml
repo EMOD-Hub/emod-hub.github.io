@@ -35,11 +35,13 @@ docs = [
     "mkdocs-autoapi",
     "mkdocs-glightbox",
 ]
-test = [
+lint = [
 ]
 packaging = [
 ]
+test = [
+]
 
 [project.urls]
-Repository="https://github.com/EMOD-Hub/emod-hub.github.io"
-Issues="https://github.com/EMOD-Hub/emod-hub.github.io/issues"
+Repository = "https://github.com/EMOD-Hub/emod-hub.github.io"
+Issues = "https://github.com/EMOD-Hub/emod-hub.github.io/issues"
