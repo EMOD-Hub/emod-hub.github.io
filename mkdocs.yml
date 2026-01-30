@@ -33,7 +33,7 @@ nav:
   - Related projects:
     - emodpy: https://emod-hub.github.io/emodpy/
     - emod-api: https://emod-hub.github.io/emod-api/
-    - EMOD-Generic: https://docs.idmod.org/projects/emod-generic
+    - EMOD-Generic: https://emod-hub.github.io/EMOD-Generic/
     - idmtools: https://docs.idmod.org/projects/idmtools/
 
 plugins:
