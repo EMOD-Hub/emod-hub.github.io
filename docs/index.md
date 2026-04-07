@@ -6,9 +6,12 @@ EMOD (Epidemiological MODeling software) is a stochastic, agent-based modeling f
 
     EMOD is no longer under active development, so there will be no new feature releases, bug fixes, or model updates. Support is limited to what current users may provide in the GitHub Discussions forum. Model code will remain publicly available, but you are advised to use EMOD at your own risk.
 
-## Available EMOD models and packages
+## Available models and utilities
 
-(update text to include a "roadmap" to orient users to the appropriate link below).
+EMOD is a powerful modeling framework that allows users to highly customize their models.
+
+### EMOD models and packages
+
 The following models and packages are currently available:
 
 
@@ -50,7 +53,7 @@ The following models and packages are currently available:
 
     ---
 
-    The malaria-specific Python code used to configure and run malaria-based EMOD. It includes vector transmission, within-host parasite dynamics, and malaria-specific interventions.
+    The malaria-specific model and Python code used to configure and run malaria-based EMOD. It includes vector transmission, within-host parasite dynamics, and malaria-specific interventions.
 
     [:octicons-arrow-right-24: emodpy-malaria](https://emod-hub.github.io/emodpy-malaria/)
 
@@ -58,7 +61,7 @@ The following models and packages are currently available:
 
     ---
 
-    The HIV-specific Python code used to configure and run HIV-based EMOD. It includes within-host viral dynamics, HIV virology parameters, and HIV-specific interventions.
+    The HIV-specific model and Python code used to configure and run HIV-based EMOD. It includes within-host viral dynamics, HIV virology parameters, and HIV-specific interventions.
 
     [:octicons-arrow-right-24: emodpy-hiv](https://emod-hub.github.io/emodpy-hiv/)
 
@@ -66,9 +69,11 @@ The following models and packages are currently available:
 
 <!-- need to update the URLs to EMOD, EMOD-generic, idmtools, etc as we want to link to the docs that are hosted on GHP, not necessarily to repos and definitely not to the RTD docs -->
 
-## idmtools
+### idmtools
 
 idmtools is a collection of Python scripts and utilities created to streamline user interactions with disease models. This framework provides the user with tools necessary to complete projects, starting from the creation of input files (if required), to calibration of the model to data, to commissioning and running simulations, through the analysis of results. Modelers can use idmtools to run models locally or send suites of simulations to an HPC or other computing source. This framework is free, open-source, and model agnostic: it can be used to interact with a variety of models, such as custom models written in R or Python, or IDM’s own EMOD.
+
+
 
 <div class="grid cards" markdown>
 
