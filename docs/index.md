@@ -4,15 +4,15 @@ EMOD (Epidemiological MODeling software) is a stochastic, agent-based modeling f
 
 !!! warning "EMOD is no longer under active development"
 
-    EMOD is no longer under active development, so there will be no new feature releases, bug fixes, or model updates. Support is limited to what current users may provide in the GitHub Discussions forum. Model code will remain publicly available, but you are advised to use EMOD at your own risk.
+    EMOD will not receive new features, bug fixes, or model updates. Community support is available through the GitHub Discussions forum, and model code will remain publicly accessible. We recommend evaluating whether EMOD is the right fit before starting new work.
 
 ## Available models and utilities
 
-EMOD is a powerful modeling framework that allows users to highly customize their models.
+We provide both modeling software and workflow tools to support an end-to-end simulation pipeline. EMOD is the disease model framework, offering disease-specific models for malaria and HIV alongside Python packages for configuring and running simulations. idmtools is a model-agnostic framework that handles the surrounding infrastructure: job commissioning, HPC integration, calibration, and more. While each can be used independently, we recommend using them together for a seamless, integrated workflow.
 
-### EMOD models and packages
+### EMOD
 
-The following models and packages are currently available:
+The EMOD framework is powerful and flexible, and can be customized to examine a variety of epidemiological problems. Source code is available for those interested in modifying code to create bespoke models, and various transmission modes are available to investigate specific disease-oriented questions.
 
 
 <div class="grid cards" markdown>
@@ -29,7 +29,7 @@ The following models and packages are currently available:
 
     ---
 
-    Modeling framework best suited for low-complexity disease transmisison, such as measles.
+    Modeling framework best suited for low-complexity disease transmission, such as measles.
 
     [:octicons-arrow-right-24: EMOD-Generic](https://github.com/EMOD-Hub/EMOD-Generic)
 
@@ -83,7 +83,7 @@ idmtools is a collection of Python scripts and utilities created to streamline u
 
     Framework of Python scripts and utilities to streamline modeling workflows.
 
-    [:octicons-arrow-right-24: idmtools](https://docs.idmod.org/projects/idmtools/en/latest/)
+    [:octicons-arrow-right-24: idmtools](https://institutefordiseasemodeling.github.io/idmtools/)
 
 -   :material-language-python:{ .lg .middle } __idmtools_local__
 
@@ -97,8 +97,8 @@ idmtools is a collection of Python scripts and utilities created to streamline u
 
     ---
 
-    Python scripts and utlities to aid in  model calibration.
+    Python scripts and utilities to aid in model calibration.
 
-    [:octicons-arrow-right-24: idmtools_calibra](https://docs.idmod.org/projects/idmtools_calibra/en/latest/)
+    [:octicons-arrow-right-24: idmtools_calibra](https://institutefordiseasemodeling.github.io/idmtools-calibra/)
 
 </div>
