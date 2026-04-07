@@ -12,7 +12,7 @@ We provide both modeling software and workflow tools to support an end-to-end si
 
 ### EMOD
 
-The EMOD framework is powerful and flexible, and can be customized to examine a variety of epidemiological problems. Source code is available for those interested in modifying code to create bespoke models, and various transmission modes are available to investigate specific disease-oriented questions.
+The EMOD framework is powerful and flexible, and can be customized to examine a variety of epidemiological problems. Source code is available for those interested in modifying code to create custom models, and various transmission modes are available to investigate specific disease-oriented questions.
 
 
 <div class="grid cards" markdown>
@@ -71,9 +71,7 @@ The EMOD framework is powerful and flexible, and can be customized to examine a 
 
 ### idmtools
 
-idmtools is a collection of Python scripts and utilities created to streamline user interactions with disease models. This framework provides the user with tools necessary to complete projects, starting from the creation of input files (if required), to calibration of the model to data, to commissioning and running simulations, through the analysis of results. Modelers can use idmtools to run models locally or send suites of simulations to an HPC or other computing source. This framework is free, open-source, and model agnostic: it can be used to interact with a variety of models, such as custom models written in R or Python, or IDM’s own EMOD.
-
-
+idmtools is a collection of Python scripts and utilities that streamlines the full modeling workflow: input file creation, model calibration, commissioning simulations (both locally and on an HPC), and analyzing results. While idmtools is model-agnostic and compatible with custom R or Python models, it is purpose-built to work seamlessly with EMOD.
 
 <div class="grid cards" markdown>
 
