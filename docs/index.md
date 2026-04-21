@@ -8,6 +8,45 @@ EMOD (Epidemiological MODeling software) is a stochastic, agent-based modeling f
 
 No new features, bug fixes, or model updates are currently planned. Community support is available through the GitHub Discussions forum, and model code will remain publicly accessible.
 
+## Getting started
+
+<div class="grid cards" markdown>
+
+-   :material-school:{ .lg .middle } __emodpy-hiv__
+
+    ---
+
+    Tutorials for emodpy-hiv.
+
+    [:octicons-arrow-right-24: emodpy-hiv][emodpy-hiv_tutorial]
+
+-   :material-school:{ .lg .middle } __emodpy-malaria__
+
+    ---
+
+    Tutorials for emodpy-malaria.
+
+    [:octicons-arrow-right-24: emodpy-malaria][emodpy-malaria_tutorial]
+
+-   :material-school:{ .lg .middle } __emodpy-workflow__
+
+    ---
+
+    Workflow examples with emodpy-hiv.
+
+    [:octicons-arrow-right-24: emodpy-workflow][emodpy-workflow]
+
+-   :material-school:{ .lg .middle } __EMOD-Generic-Scripts__
+
+    ---
+
+    Example models for the Generic branch of EMOD.
+
+    [:octicons-arrow-right-24: EMOD-Generic-Scripts][emod-generic-scripts]
+
+</div>
+
+
 ## Available models and utilities
 
 EMOD is the disease model framework, offering disease-specific models for malaria and HIV alongside Python packages for configuring and running simulations. The idmtools package is a model-agnostic framework that handles the surrounding infrastructure: job commissioning, HPC integration, calibration, and more. While each can be used independently, we recommend using them together for a seamless, integrated workflow.
@@ -88,7 +127,7 @@ The idmtools package is a collection of Python scripts and utilities that stream
 
     The local runner enabling the execution of tasks in a docker container.
 
-    [:octicons-arrow-right-24: idmtools_local][idmtools_container]
+    [:octicons-arrow-right-24: idmtools-local][idmtools_container]
 
 -   :material-language-python:{ .lg .middle } __idmtools calibra__
 
@@ -96,6 +135,6 @@ The idmtools package is a collection of Python scripts and utilities that stream
 
     Python scripts and utilities to aid in model calibration.
 
-    [:octicons-arrow-right-24: idmtools_calibra][idmtools_calibra]
+    [:octicons-arrow-right-24: idmtools-calibra][idmtools_calibra]
 
 </div>
