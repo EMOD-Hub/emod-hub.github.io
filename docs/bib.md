@@ -7,7 +7,7 @@
 [emodpy-hiv_tutorial]: https://emod.idmod.org/emodpy-hiv/tutorials/overview/
 [emodpy-malaria]: https://emod.idmod.org/emodpy-malaria/
 [emodpy-malaria_tutorial]: https://emod.idmod.org/emodpy-malaria/tutorials/overview/
-[emodpy-workflow]: https://emod.idmod.org/emodpy-workflow/
+[emodpy-workflow]: https://emod.idmod.org/emodpy-workflow/tutorials/get_started/
 [idmod]: https://www.idmod.org/
 [idmtools]: https://institutefordiseasemodeling.github.io/idmtools/
 [idmtools_cli]: https://institutefordiseasemodeling.github.io/idmtools/cli/
