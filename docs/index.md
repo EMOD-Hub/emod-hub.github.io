@@ -4,9 +4,23 @@ title: Home
 
 # EMOD model documentation
 
-EMOD (Epidemiological MODeling software) is a stochastic, agent-based modeling framework that simulates the simultaneous interactions of agents in an effort to recreate the complex phenomena of disease transmission. Built in C++, the models are feature-rich and designed to track the movement, development, health, and other traits of interest for individuals over a course of lifetimes.
+EMOD (Epidemiological MODeling software) is a stochastic, agent-based modeling
+framework that simulates the simultaneous interactions of agents in an effort
+to recreate the complex phenomena of disease transmission. Built in C++, the
+models are feature-rich and designed to track the movement, development,
+health, and other traits of interest for individuals over a course of lifetimes.
 
-No new features, bug fixes, or model updates are currently planned. Community support is available through the GitHub Discussions forum, and model code will remain publicly accessible.
+## Project status
+
+EMOD-Hub projects are provided as open source software under the MIT License for
+community use, research, and development.
+
+**Unless otherwise noted, these projects are no longer actively maintained or supported
+by IDM or the Gates Foundation.**
+
+Community contributions are welcome, and trusted collaborators may review and
+merge pull requests, but no guarantees are made regarding support, pull request
+review, security response, maintenance, or release timelines.
 
 ## Getting started
 
@@ -85,7 +99,7 @@ The EMOD framework is powerful and flexible, and can be customized to examine a 
 
     ---
 
-    The Python code used to configure and run EMOD simulations.
+    Shared Python workflow infrastructure used to configure and run EMOD simulations.
 
     [:octicons-arrow-right-24: emodpy][emodpy]
 
